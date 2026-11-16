@@ -1,0 +1,18 @@
+{
+  "name": "ktb-atm-vault-backend",
+  "version": "1.0.0",
+  "description": "REST backend (Express + TiDB Cloud) for ktb-atm-vault-dbms.html — academic DBMS prototype",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.0"
+  }
+}
